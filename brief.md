@@ -20,10 +20,19 @@ The emergency responder mobile app should still be useful in the absence of 5G c
 Resource: Android Developers - Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
 ## Networking
+5G slicing allows an operator to design multiple logical networks over the same physical infrastructure and provide them with different types of performance and service. For instance, a particular slice for emergency responders can be characterized by high reliability, adequate level of latency, and priority treatment in case of overload. Nevertheless, slicing is not sufficient because slices still depend on physical infrastructure and capacity. Thus, 5G operators have to add resource management, redundancy, and monitoring to slicing in order to ensure proper emergency response.
+
+Resource: 3GPP - 5G System Overview - https://www.3gpp.org/technologies/5g-system-overview
 
 ## Cybersecurity
+The response cycle helps operators handle cyber attacks on emergency communication services. Preparation prepares strategies, roles, backups and monitoring; Detection and analysis find and interpret suspicious activities; Containment reduces the attack; Eradication eliminates the source of the attack; Recovery brings back the service. Post-incident activities record lessons learned and enhance the ability to deal with future incidents. All these actions help minimize disruptions and enable immediate restoration of important 5G services during cyberattacks.
+
+Resource: NIST SP 800-61 Rev. 2 - Computer Security Incident Handling Guide - https://doi.org/10.6028/NIST.SP.800-61r2
 
 ## Data
+The star schema operates as a form of database organization in data warehousing, where the reporting data is organized around a key fact table that is connected directly to the related dimension tables in the database schema, which will manifest in a star-like pattern. The snowflake schema, on the other hand, normalizes the different dimensions into additional tables which are linked to the central tables thus reducing duplication of data in some instances, but on the downside making the query more complex. It is apparent that when it comes to daily reports about 5G service consumption by the region, the star schema is preferable, since it allows for easier aggregation and makes analytical queries straightforward.
+
+Resource: Microsoft Learn - Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
 ## Misconception in My Track
 
