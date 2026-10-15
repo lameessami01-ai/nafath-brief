@@ -35,5 +35,7 @@ The star schema operates as a form of database organization in data warehousing,
 Resource: Microsoft Learn - Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
 ## Misconception in My Track
+Many people believe that network slicing technology guarantees physical separation of different networks. But, in practice, network slicing relies on logical networks, sharing the same underlying physical infrastructure. The operators can set the usage and resource policies differently for each slice, but the physical impairment might still affect emergency communications. The Networking part highlights the need for having the redundant, monitored, and capacity-planned emergency-response slice. Thus, network slicing ensures more service differentiation but doesn't provide availability on a standalone basis.
 
 ## Open Question
+What techniques and tools can a telecom provider use to ensure that a slice of emergency 5G retains the required latency, availability, and precedence during incidents of massive congestion or breakdowns? I would research the performance standards as outlined by 3GPP as well as the relevant practical tests.
